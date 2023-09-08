@@ -1,10 +1,51 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# The Store
+
+# Contexto
+Versão simplificada, sem persistência no banco de dados, de uma loja online, desenvolvendo em grupo suas funcionalidades de acordo com demandas definidas em um quadro Kanban, em um cenário próximo ao do mercado de trabalho.  A partir dessas demandas, teremos uma aplicação em que pessoas usuárias poderão: 
+    - Buscar produtos por termos e categorias a partir da API do Mercado Livre; 
+    - Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades; 
+    - Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações e; 
+    - Simular a finalização da compra dos itens selecionados.  
+
+## Tecnologias utilizadas
+
+> Métodos Ágeis; Kanban (Trello); Scrum; React Testing Library (RTL); HTML; CSS; JavaScript; React Redux;  <a href="https://api.mercadolibre.com/sites/MLB">API Mercado Livre</a>
+
+
+## Instalando Dependências
+
+```bash
+npm install
+``` 
+
+## Executando aplicação
+
+```bash
+npm start
+```
+
+## Executando Testes
+
+* Para rodar todos os testes localmente:
+
+```bash
+npm run cy
+```
+* Para ter um resultado visual dos testes:
+
+```bash
+npm run cy:open
+```
+
+## TRYBE
+Este projeto foi desenvolvido enquanto estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/">Trybe</a>!
+Projeto em grupo com:
+<a href="https://www.linkedin.com/in/igorjsilva/">@igorsilvaj </a>
+<a href="https://www.linkedin.com/in/lucoliv/">@luc0liv </a>
+<a href="https://www.linkedin.com/in/luizhmaduro/">@luizhenriqm </a>
+ <a href="https://www.linkedin.com/in/pedrorobertodev/">@pedroroberto32</a>
+<a href="https://www.linkedin.com/in/tiagofirmino92/">@tiagodasilvafirmino </a>
+
+Tarefas desenvolvidos/alterados por mim:
+
+Botão de carrinho de compras; número com a quantidade de produtos adicionados;
